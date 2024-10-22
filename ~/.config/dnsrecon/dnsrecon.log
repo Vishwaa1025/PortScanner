@@ -1,0 +1,160 @@
+2024-10-22 09:46:07.017 | INFO     | cli:main:1858 - Starting enumeration for domain: google.com
+2024-10-22 09:46:07.018 | INFO     | cli:main:1881 - std: Performing General Enumeration against: google.com...
+2024-10-22 09:46:07.269 | ERROR    | cli:dns_sec_check:938 - All nameservers failed to answer the DNSSEC query for google.com
+2024-10-22 09:46:07.779 | INFO     | cli:general_enum:1045 - 	 SOA ns1.google.com 216.239.32.10
+2024-10-22 09:46:07.779 | INFO     | cli:general_enum:1045 - 	 SOA ns1.google.com 2001:4860:4802:32::a
+2024-10-22 09:46:08.947 | INFO     | cli:general_enum:1071 - 	 NS ns3.google.com 216.239.36.10
+2024-10-22 09:46:09.259 | INFO     | cli:general_enum:1071 - 	 NS ns3.google.com 2001:4860:4802:36::a
+2024-10-22 09:46:09.260 | INFO     | cli:general_enum:1071 - 	 NS ns1.google.com 216.239.32.10
+2024-10-22 09:46:09.453 | INFO     | cli:general_enum:1071 - 	 NS ns1.google.com 2001:4860:4802:32::a
+2024-10-22 09:46:09.454 | INFO     | cli:general_enum:1071 - 	 NS ns2.google.com 216.239.34.10
+2024-10-22 09:46:09.634 | INFO     | cli:general_enum:1071 - 	 NS ns2.google.com 2001:4860:4802:34::a
+2024-10-22 09:46:09.635 | INFO     | cli:general_enum:1071 - 	 NS ns4.google.com 216.239.38.10
+2024-10-22 09:46:09.806 | INFO     | cli:general_enum:1071 - 	 NS ns4.google.com 2001:4860:4802:38::a
+2024-10-22 09:46:10.294 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 74.125.130.27
+2024-10-22 09:46:10.295 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 74.125.200.26
+2024-10-22 09:46:10.295 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 74.125.200.27
+2024-10-22 09:46:10.295 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 172.253.118.26
+2024-10-22 09:46:10.296 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 172.253.118.27
+2024-10-22 09:46:10.296 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 2404:6800:4003:c00::1a
+2024-10-22 09:46:10.296 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 2404:6800:4003:c05::1a
+2024-10-22 09:46:10.296 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 2404:6800:4003:c00::1b
+2024-10-22 09:46:10.297 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 2404:6800:4003:c05::1b
+2024-10-22 09:46:10.406 | INFO     | cli:general_enum:1122 - 	 A google.com 142.250.182.142
+2024-10-22 09:46:10.407 | INFO     | cli:general_enum:1122 - 	 AAAA google.com 2404:6800:4007:81f::200e
+2024-10-22 09:46:10.992 | INFO     | cli:general_enum:1154 - 	 TXT google.com apple-domain-verification=30afIBcvSuDV2PLX
+2024-10-22 09:46:10.993 | INFO     | cli:general_enum:1154 - 	 TXT google.com docusign=1b0a6754-49b1-4db5-8540-d2c12664b289
+2024-10-22 09:46:10.993 | INFO     | cli:general_enum:1154 - 	 TXT google.com onetrust-domain-verification=de01ed21f2fa4d8781cbc3ffb89cf4ef
+2024-10-22 09:46:10.993 | INFO     | cli:general_enum:1154 - 	 TXT google.com google-site-verification=4ibFUgB-wXLQ_S7vsXVomSTVamuOXBiVAzpR5IZ87D0
+2024-10-22 09:46:10.993 | INFO     | cli:general_enum:1154 - 	 TXT google.com google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o
+2024-10-22 09:46:10.994 | INFO     | cli:general_enum:1154 - 	 TXT google.com facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95
+2024-10-22 09:46:10.994 | INFO     | cli:general_enum:1154 - 	 TXT google.com cisco-ci-domain-verification=479146de172eb01ddee38b1a455ab9e8bb51542ddd7f1fa298557dfa7b22d963
+2024-10-22 09:46:10.995 | INFO     | cli:general_enum:1154 - 	 TXT google.com v=spf1 include:_spf.google.com ~all
+2024-10-22 09:46:10.995 | INFO     | cli:general_enum:1154 - 	 TXT google.com globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8=
+2024-10-22 09:46:10.995 | INFO     | cli:general_enum:1154 - 	 TXT google.com docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e
+2024-10-22 09:46:10.995 | INFO     | cli:general_enum:1154 - 	 TXT google.com MS=E4A68B9AB2BB9670BCE15412F62916164C0B20BB
+2024-10-22 09:46:10.996 | INFO     | cli:general_enum:1154 - 	 TXT google.com google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ
+2024-10-22 09:46:10.996 | INFO     | cli:general_enum:1154 - 	 TXT _dmarc.google.com v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+2024-10-22 09:46:11.268 | INFO     | cli:general_enum:1180 - Enumerating SRV Records
+2024-10-22 09:46:11.890 | INFO     | cli:brute_srv:410 - 	 SRV _ldap._tcp.google.com ldap.google.com 216.239.32.58 389
+2024-10-22 09:46:11.890 | INFO     | cli:brute_srv:410 - 	 SRV _ldap._tcp.google.com ldap.google.com 2001:4860:4802:32::3a 389
+2024-10-22 09:46:12.742 | INFO     | cli:brute_srv:410 - 	 SRV _carddavs._tcp.google.com google.com 142.250.182.142 443
+2024-10-22 09:46:12.743 | INFO     | cli:brute_srv:410 - 	 SRV _carddavs._tcp.google.com google.com 2404:6800:4007:81f::200e 443
+2024-10-22 09:46:12.946 | INFO     | cli:brute_srv:410 - 	 SRV _caldavs._tcp.google.com calendar.google.com 142.250.76.46 443
+2024-10-22 09:46:12.947 | INFO     | cli:brute_srv:410 - 	 SRV _caldavs._tcp.google.com calendar.google.com 2404:6800:4007:814::200e 443
+2024-10-22 09:46:12.948 | INFO     | cli:brute_srv:410 - 	 SRV _caldav._tcp.google.com calendar.google.com 142.250.76.46 80
+2024-10-22 09:46:12.949 | INFO     | cli:brute_srv:410 - 	 SRV _caldav._tcp.google.com calendar.google.com 2404:6800:4007:814::200e 80
+2024-10-22 09:46:12.950 | INFO     | cli:brute_srv:415 - 8 Records Found
+2024-10-22 09:46:12.951 | INFO     | cli:main:1981 - Completed enumeration for domain: google.com
+
+2024-10-22 09:46:16.715 | INFO     | cli:main:1858 - Starting enumeration for domain: google.com
+2024-10-22 09:46:16.716 | INFO     | cli:main:1881 - std: Performing General Enumeration against: google.com...
+2024-10-22 09:46:16.916 | ERROR    | cli:dns_sec_check:938 - All nameservers failed to answer the DNSSEC query for google.com
+2024-10-22 09:46:16.923 | INFO     | cli:general_enum:1045 - 	 SOA ns1.google.com 216.239.32.10
+2024-10-22 09:46:16.924 | INFO     | cli:general_enum:1045 - 	 SOA ns1.google.com 2001:4860:4802:32::a
+2024-10-22 09:46:16.936 | INFO     | cli:general_enum:1071 - 	 NS ns4.google.com 216.239.38.10
+2024-10-22 09:46:17.144 | INFO     | cli:general_enum:1071 - 	 NS ns4.google.com 2001:4860:4802:38::a
+2024-10-22 09:46:17.145 | INFO     | cli:general_enum:1071 - 	 NS ns3.google.com 216.239.36.10
+2024-10-22 09:46:17.463 | INFO     | cli:general_enum:1071 - 	 NS ns3.google.com 2001:4860:4802:36::a
+2024-10-22 09:46:17.464 | INFO     | cli:general_enum:1071 - 	 NS ns2.google.com 216.239.34.10
+2024-10-22 09:46:17.646 | INFO     | cli:general_enum:1071 - 	 NS ns2.google.com 2001:4860:4802:34::a
+2024-10-22 09:46:17.647 | INFO     | cli:general_enum:1071 - 	 NS ns1.google.com 216.239.32.10
+2024-10-22 09:46:17.807 | INFO     | cli:general_enum:1071 - 	 NS ns1.google.com 2001:4860:4802:32::a
+2024-10-22 09:46:17.815 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 74.125.200.26
+2024-10-22 09:46:17.815 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 172.253.118.27
+2024-10-22 09:46:17.815 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 172.253.118.26
+2024-10-22 09:46:17.816 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 74.125.200.27
+2024-10-22 09:46:17.816 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 74.125.130.27
+2024-10-22 09:46:17.816 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 2404:6800:4003:c00::1b
+2024-10-22 09:46:17.817 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 2404:6800:4003:c00::1a
+2024-10-22 09:46:17.817 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 2404:6800:4003:c05::1a
+2024-10-22 09:46:17.817 | INFO     | cli:general_enum:1099 - 	 MX smtp.google.com 2404:6800:4003:c05::1b
+2024-10-22 09:46:17.820 | INFO     | cli:general_enum:1122 - 	 A google.com 142.250.182.142
+2024-10-22 09:46:17.820 | INFO     | cli:general_enum:1122 - 	 AAAA google.com 2404:6800:4007:81f::200e
+2024-10-22 09:46:18.012 | INFO     | cli:general_enum:1154 - 	 TXT google.com google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ
+2024-10-22 09:46:18.012 | INFO     | cli:general_enum:1154 - 	 TXT google.com MS=E4A68B9AB2BB9670BCE15412F62916164C0B20BB
+2024-10-22 09:46:18.013 | INFO     | cli:general_enum:1154 - 	 TXT google.com cisco-ci-domain-verification=479146de172eb01ddee38b1a455ab9e8bb51542ddd7f1fa298557dfa7b22d963
+2024-10-22 09:46:18.013 | INFO     | cli:general_enum:1154 - 	 TXT google.com google-site-verification=4ibFUgB-wXLQ_S7vsXVomSTVamuOXBiVAzpR5IZ87D0
+2024-10-22 09:46:18.014 | INFO     | cli:general_enum:1154 - 	 TXT google.com docusign=1b0a6754-49b1-4db5-8540-d2c12664b289
+2024-10-22 09:46:18.014 | INFO     | cli:general_enum:1154 - 	 TXT google.com docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e
+2024-10-22 09:46:18.015 | INFO     | cli:general_enum:1154 - 	 TXT google.com onetrust-domain-verification=de01ed21f2fa4d8781cbc3ffb89cf4ef
+2024-10-22 09:46:18.015 | INFO     | cli:general_enum:1154 - 	 TXT google.com facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95
+2024-10-22 09:46:18.016 | INFO     | cli:general_enum:1154 - 	 TXT google.com globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8=
+2024-10-22 09:46:18.016 | INFO     | cli:general_enum:1154 - 	 TXT google.com google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o
+2024-10-22 09:46:18.016 | INFO     | cli:general_enum:1154 - 	 TXT google.com apple-domain-verification=30afIBcvSuDV2PLX
+2024-10-22 09:46:18.017 | INFO     | cli:general_enum:1154 - 	 TXT google.com v=spf1 include:_spf.google.com ~all
+2024-10-22 09:46:18.017 | INFO     | cli:general_enum:1154 - 	 TXT _dmarc.google.com v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+2024-10-22 09:46:18.443 | INFO     | cli:general_enum:1180 - Enumerating SRV Records
+2024-10-22 09:46:18.479 | INFO     | cli:brute_srv:410 - 	 SRV _ldap._tcp.google.com ldap.google.com 216.239.32.58 389
+2024-10-22 09:46:18.481 | INFO     | cli:brute_srv:410 - 	 SRV _ldap._tcp.google.com ldap.google.com 2001:4860:4802:32::3a 389
+2024-10-22 09:46:19.360 | INFO     | cli:brute_srv:410 - 	 SRV _caldav._tcp.google.com calendar.google.com 142.250.76.46 80
+2024-10-22 09:46:19.361 | INFO     | cli:brute_srv:410 - 	 SRV _caldav._tcp.google.com calendar.google.com 2404:6800:4007:814::200e 80
+2024-10-22 09:46:19.365 | INFO     | cli:brute_srv:410 - 	 SRV _caldavs._tcp.google.com calendar.google.com 142.250.76.46 443
+2024-10-22 09:46:19.366 | INFO     | cli:brute_srv:410 - 	 SRV _caldavs._tcp.google.com calendar.google.com 2404:6800:4007:814::200e 443
+2024-10-22 09:46:19.419 | INFO     | cli:brute_srv:410 - 	 SRV _carddavs._tcp.google.com google.com 142.250.182.142 443
+2024-10-22 09:46:19.419 | INFO     | cli:brute_srv:410 - 	 SRV _carddavs._tcp.google.com google.com 2404:6800:4007:81f::200e 443
+2024-10-22 09:46:19.605 | INFO     | cli:brute_srv:415 - 8 Records Found
+2024-10-22 09:46:19.606 | INFO     | cli:main:1981 - Completed enumeration for domain: google.com
+
+2024-10-22 09:47:34.242 | INFO     | cli:main:1858 - Starting enumeration for domain: http://www.itsecgames.com/
+2024-10-22 09:47:34.243 | INFO     | cli:main:1881 - std: Performing General Enumeration against: http://www.itsecgames.com/...
+2024-10-22 09:47:34.325 | ERROR    | cli:dns_sec_check:938 - All nameservers failed to answer the DNSSEC query for http://www.itsecgames.com/
+2024-10-22 09:47:35.030 | INFO     | cli:general_enum:1180 - Enumerating SRV Records
+2024-10-22 09:47:35.719 | ERROR    | cli:brute_srv:417 - No SRV Records Found for http://www.itsecgames.com/
+2024-10-22 09:47:35.719 | INFO     | cli:main:1981 - Completed enumeration for domain: http://www.itsecgames.com/
+
+2024-10-22 09:57:46.857 | INFO     | cli:main:1858 - Starting enumeration for domain: www.itsecgames.com
+2024-10-22 09:57:46.858 | INFO     | cli:main:1881 - std: Performing General Enumeration against: www.itsecgames.com...
+2024-10-22 09:57:47.021 | ERROR    | cli:dns_sec_check:938 - All nameservers failed to answer the DNSSEC query for www.itsecgames.com
+2024-10-22 09:57:47.329 | INFO     | cli:general_enum:1045 - 	 SOA ns53.domaincontrol.com 97.74.106.27
+2024-10-22 09:57:47.329 | INFO     | cli:general_enum:1045 - 	 SOA ns53.domaincontrol.com 2603:5:21a2::1b
+2024-10-22 09:57:47.589 | INFO     | cli:general_enum:1071 - 	 NS ns54.domaincontrol.com 173.201.74.27
+2024-10-22 09:57:47.743 | INFO     | cli:general_enum:1071 - 	 NS ns54.domaincontrol.com 2603:5:22a2::1b
+2024-10-22 09:57:47.743 | INFO     | cli:general_enum:1071 - 	 NS ns53.domaincontrol.com 97.74.106.27
+2024-10-22 09:57:47.912 | INFO     | cli:general_enum:1071 - 	 NS ns53.domaincontrol.com 2603:5:21a2::1b
+2024-10-22 09:57:48.654 | INFO     | cli:general_enum:1099 - 	 MX itsecgames-com.mail.protection.outlook.com 52.101.68.36
+2024-10-22 09:57:48.654 | INFO     | cli:general_enum:1099 - 	 MX itsecgames-com.mail.protection.outlook.com 52.101.68.12
+2024-10-22 09:57:48.655 | INFO     | cli:general_enum:1099 - 	 MX itsecgames-com.mail.protection.outlook.com 52.101.73.24
+2024-10-22 09:57:48.655 | INFO     | cli:general_enum:1099 - 	 MX itsecgames-com.mail.protection.outlook.com 52.101.73.21
+2024-10-22 09:57:48.915 | INFO     | cli:general_enum:1122 - 	 CNAME www.itsecgames.com itsecgames.com
+2024-10-22 09:57:48.915 | INFO     | cli:general_enum:1122 - 	 A itsecgames.com 31.3.96.40
+2024-10-22 09:57:49.547 | INFO     | cli:general_enum:1154 - 	 TXT www.itsecgames.com v=spf1 mx a include:spf.protection.outlook.com include:servers.mcsv.net include:mme-srv-dc1.mme.local -all
+2024-10-22 09:57:50.032 | INFO     | cli:general_enum:1180 - Enumerating SRV Records
+2024-10-22 09:57:51.606 | ERROR    | cli:brute_srv:417 - No SRV Records Found for www.itsecgames.com
+2024-10-22 09:57:51.607 | INFO     | cli:main:1981 - Completed enumeration for domain: www.itsecgames.com
+
+2024-10-22 09:58:03.565 | INFO     | cli:main:1858 - Starting enumeration for domain: 192.108.22.11
+2024-10-22 09:58:03.567 | INFO     | cli:main:1881 - std: Performing General Enumeration against: 192.108.22.11...
+2024-10-22 09:58:03.655 | ERROR    | cli:dns_sec_check:938 - All nameservers failed to answer the DNSSEC query for 192.108.22.11
+2024-10-22 09:58:04.350 | INFO     | cli:general_enum:1180 - Enumerating SRV Records
+2024-10-22 09:58:05.137 | ERROR    | cli:brute_srv:417 - No SRV Records Found for 192.108.22.11
+2024-10-22 09:58:05.138 | INFO     | cli:main:1981 - Completed enumeration for domain: 192.108.22.11
+
+2024-10-22 09:58:09.223 | INFO     | cli:main:1858 - Starting enumeration for domain: 192.108.22.11
+2024-10-22 09:58:09.224 | INFO     | cli:main:1881 - std: Performing General Enumeration against: 192.108.22.11...
+2024-10-22 09:58:09.332 | ERROR    | cli:dns_sec_check:938 - All nameservers failed to answer the DNSSEC query for 192.108.22.11
+2024-10-22 09:58:10.126 | INFO     | cli:general_enum:1180 - Enumerating SRV Records
+2024-10-22 09:58:10.845 | ERROR    | cli:brute_srv:417 - No SRV Records Found for 192.108.22.11
+2024-10-22 09:58:10.846 | INFO     | cli:main:1981 - Completed enumeration for domain: 192.108.22.11
+
+2024-10-22 14:21:55.471 | INFO     | cli:main:1858 - Starting enumeration for domain: google.in
+2024-10-22 14:21:55.473 | INFO     | cli:main:1881 - std: Performing General Enumeration against: google.in...
+2024-10-22 14:21:55.767 | ERROR    | cli:dns_sec_check:938 - All nameservers failed to answer the DNSSEC query for google.in
+2024-10-22 14:21:56.791 | INFO     | cli:general_enum:1045 - 	 SOA ns1.google.com 216.239.32.10
+2024-10-22 14:21:56.792 | INFO     | cli:general_enum:1045 - 	 SOA ns1.google.com 2001:4860:4802:32::a
+2024-10-22 14:21:58.158 | INFO     | cli:general_enum:1071 - 	 NS ns2.google.com 216.239.34.10
+2024-10-22 14:21:58.316 | INFO     | cli:general_enum:1071 - 	 NS ns2.google.com 2001:4860:4802:34::a
+2024-10-22 14:21:58.317 | INFO     | cli:general_enum:1071 - 	 NS ns4.google.com 216.239.38.10
+2024-10-22 14:21:58.506 | INFO     | cli:general_enum:1071 - 	 NS ns4.google.com 2001:4860:4802:38::a
+2024-10-22 14:21:58.508 | INFO     | cli:general_enum:1071 - 	 NS ns1.google.com 216.239.32.10
+2024-10-22 14:21:58.727 | INFO     | cli:general_enum:1071 - 	 NS ns1.google.com 2001:4860:4802:32::a
+2024-10-22 14:21:58.728 | INFO     | cli:general_enum:1071 - 	 NS ns3.google.com 216.239.36.10
+2024-10-22 14:21:59.052 | INFO     | cli:general_enum:1071 - 	 NS ns3.google.com 2001:4860:4802:36::a
+2024-10-22 14:21:59.323 | INFO     | cli:general_enum:1122 - 	 A google.in 142.250.196.68
+2024-10-22 14:21:59.324 | INFO     | cli:general_enum:1122 - 	 AAAA google.in 2404:6800:4007:82b::2004
+2024-10-22 14:21:59.909 | INFO     | cli:general_enum:1154 - 	 TXT google.in v=spf1 -all
+2024-10-22 14:21:59.910 | INFO     | cli:general_enum:1154 - 	 TXT _dmarc.google.in v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+2024-10-22 14:22:00.248 | INFO     | cli:general_enum:1180 - Enumerating SRV Records
+2024-10-22 14:22:06.809 | ERROR    | cli:brute_srv:417 - No SRV Records Found for google.in
+2024-10-22 14:22:06.809 | INFO     | cli:main:1981 - Completed enumeration for domain: google.in
+
